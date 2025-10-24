@@ -13,7 +13,7 @@ const Banner = () => {
 
       {/* Content Box */}
       <div
-        className="absolute bg-white/90 backdrop-blur-sm text-gray-800 p-8 rounded-xl shadow-lg"
+        className="absolute  text-gray-800 p-8 rounded-xl shadow-lg"
         style={{
           left: "739px",
           right: "58px",
