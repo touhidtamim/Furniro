@@ -3,7 +3,7 @@ import BannerImg from "/Images/Banner/scandinavian-interior-mockup-wall-decal-ba
 
 const Banner = () => {
   return (
-    <section className="relative w-full h-[90vh] flex items-center justify-center">
+    <section className="relative w-full h-[90vh] flex items-center justify-end px-12">
       {/* Background Image */}
       <img
         src={BannerImg}
@@ -11,28 +11,24 @@ const Banner = () => {
         className="absolute top-0 left-0 w-full h-full object-cover object-center"
       />
 
+      {/* Overlay*/}
+      <div className="absolute inset-0 bg-black/10"></div>
+
       {/* Content Box */}
-      <div
-        className="absolute  text-gray-800 p-8 rounded-xl shadow-lg"
-        style={{
-          left: "739px",
-          right: "58px",
-          top: "328px",
-          bottom: "200px",
-        }}
-      >
-        <p className="text-sm uppercase tracking-widest text-gray-500">
+      <div className="relative max-w-md bg-white/90 backdrop-blur-sm text-gray-900 p-10 rounded-2xl shadow-xl mr-36">
+        <p className="text-sm uppercase tracking-[0.2em] text-gray-500 font-semibold">
           New Arrival
         </p>
-        <h3 className="text-3xl font-bold mt-2 leading-snug">
-          Discover Our <br /> New Collection
+        <h3 className="text-2xl font-extrabold mt-2 leading-tight">
+          Redefine Your Space <br /> with Modern Elegance
         </h3>
-        <p className="mt-3 text-gray-600">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis.
+        <p className="mt-4 text-gray-700 leading-relaxed">
+          Experience the perfect balance of comfort and style. Explore our
+          latest Scandinavian-inspired furniture that transforms your home into
+          a timeless masterpiece.
         </p>
-        <button className="mt-5 px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition">
-          Buy Now
+        <button className="mt-6 px-7 py-3 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition">
+          Shop Now
         </button>
       </div>
     </section>
