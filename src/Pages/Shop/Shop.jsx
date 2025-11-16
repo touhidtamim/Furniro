@@ -1,7 +1,7 @@
 import React from "react";
 
 const Shop = () => {
-  return <div> Shopping page</div>;
+  return <div>This is Shopping page</div>;
 };
 
 export default Shop;
