@@ -1,7 +1,15 @@
 import React from "react";
+import SecondaryHero from "../../Components/Shared/seconderyHero";
 
 const Contact = () => {
-  return <div>This is Contact page</div>;
+  return (
+    <>
+      {/* Secondery HeroImg */}
+      <SecondaryHero />
+
+      {/* Main Content */}
+    </>
+  );
 };
 
 export default Contact;
