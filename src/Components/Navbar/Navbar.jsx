@@ -60,7 +60,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* ---------- Mobile Menu ---------- */}
+      {/*  Mobile Menu  */}
       {isOpen && (
         <div className="md:hidden bg-white border-t text-gray-700 font-medium animate-fade-in">
           <ul className="flex flex-col text-center">
@@ -76,7 +76,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* ---------- Mobile Auth Buttons ---------- */}
+          {/*  Mobile Auth Buttons  */}
           <div className="flex flex-col items-center py-4 space-y-3">
             <Link
               to="/login"
