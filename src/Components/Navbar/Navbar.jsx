@@ -35,7 +35,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* ---------- Desktop Auth Buttons ---------- */}
+        {/*  Desktop Auth Buttons  */}
         <div className="hidden md:flex space-x-4">
           <Link
             to="/login"
@@ -51,7 +51,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* ---------- Mobile Menu Button ---------- */}
+        {/*  Mobile Menu Button  */}
         <button
           className="md:hidden text-gray-700 hover:text-amber-700 transition"
           onClick={() => setIsOpen(!isOpen)}
