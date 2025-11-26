@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        {/* ---------- Logo ---------- */}
+        {/*  Logo  */}
         <Link to="/" className="flex items-center space-x-1">
           <img
             src={logo}
@@ -21,7 +21,7 @@ const Navbar = () => {
           </h1>
         </Link>
 
-        {/* ---------- Desktop Menu ---------- */}
+        {/*  Desktop Menu  */}
         <ul className="hidden md:flex space-x-8 text-gray-700 font-medium">
           {["Home", "Shop", "About", "Contact"].map((item) => (
             <li key={item}>
