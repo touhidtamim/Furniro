@@ -10,7 +10,7 @@ const RootLayout = () => {
       {/* Navbar */}
       <Navbar />
 
-      {/* Added a custom scroll to top component to make sure better user experience  */}
+      {/* Added a custom scroll to top component */}
       <ScrollToTop />
 
       <Outlet />
