@@ -4,7 +4,7 @@ import SecondaryHero from "../../Components/Shared/seconderyHero";
 const About = () => {
   return (
     <>
-      {/* Secondery hero section */}
+      {/* Secondery Hero Section */}
       <SecondaryHero />
 
       {/* Main Content page */}
