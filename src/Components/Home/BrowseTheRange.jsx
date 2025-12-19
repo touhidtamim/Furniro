@@ -27,7 +27,7 @@ const BrowseTheRange = () => {
           <h3 className="text-xl font-semibold mt-4 text-gray-800">Dining</h3>
         </div>
 
-        {/* Living */}
+        {/* Living Rooms*/}
         <div className="group cursor-pointer">
           <div className="overflow-hidden rounded-2xl shadow-md">
             <img
@@ -39,7 +39,7 @@ const BrowseTheRange = () => {
           <h3 className="text-xl font-semibold mt-4 text-gray-800">Living</h3>
         </div>
 
-        {/* Bedroom */}
+        {/* Bedrooms */}
         <div className="group cursor-pointer">
           <div className="overflow-hidden rounded-2xl shadow-md">
             <img
