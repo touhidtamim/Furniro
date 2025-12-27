@@ -2,29 +2,34 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 px-6">
-      <div className="max-w-3xl text-center text-white">
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Build Faster. Launch Smarter.
-        </h1>
+    <section className="py-20 bg-gradient-to-br from-[#F3EADA] via-[#EADBC8] to-[#DCC9A3] px-6">
+      <div className="max-w-4xl mx-auto text-center">
+        {/* Heading */}
+        <h2 className="text-4xl md:text-5xl font-bold text-[#3A2F2F] leading-tight mb-6">
+          Bring Comfort & Style
+          <span className="block">Into Your Home</span>
+        </h2>
 
-        <p className="text-lg md:text-xl text-white/90 mb-10">
-          Transform your ideas into scalable, high-performance web applications
-          with modern tools and clean architecture.
+        {/* Description */}
+        <p className="text-lg md:text-xl text-[#5C4B4B] mb-10 max-w-2xl mx-auto">
+          Discover thoughtfully crafted indoor furniture designed to elevate
+          your living space with elegance, comfort, and durability.
         </p>
 
+        {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 rounded-xl bg-white text-indigo-600 font-semibold text-lg hover:bg-gray-100 transition duration-300">
-            Get Started
+          <button className="px-10 py-4 rounded-full bg-[#3A2F2F] text-white font-semibold text-lg hover:bg-[#2B2222] transition duration-300">
+            Shop Collection
           </button>
 
-          <button className="px-8 py-3 rounded-xl border border-white/40 text-white font-semibold text-lg hover:bg-white/10 transition duration-300">
-            View Demo
+          <button className="px-10 py-4 rounded-full border border-[#3A2F2F] text-[#3A2F2F] font-semibold text-lg hover:bg-[#3A2F2F]/10 transition duration-300">
+            Explore Designs
           </button>
         </div>
 
-        <p className="mt-8 text-sm text-white/70">
-          No credit card required. Free to get started.
+        {/* Trust Text */}
+        <p className="mt-8 text-sm text-[#6F5E5E]">
+          Premium materials • Modern design • Trusted by thousands of homes
         </p>
       </div>
     </section>
