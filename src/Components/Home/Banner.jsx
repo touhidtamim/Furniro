@@ -24,6 +24,16 @@ const Banner = () => {
           Redefine Your Space <br className="hidden sm:block" /> with Modern
           Elegance
         </h3>
+
+        <p className="mt-3 sm:mt-4 text-sm sm:text-base text-black leading-relaxed">
+          Experience the perfect balance of comfort and style. Explore our
+          latest Scandinavian-inspired furniture that transforms your home into
+          a timeless masterpiece.
+        </p>
+
+        <button className="mt-5 sm:mt-6 px-6 sm:px-7 py-2.5 sm:py-3 bg-[#B88E2F] text-white text-sm sm:text-base font-medium rounded-lg hover:bg-gray-800 transition">
+          Shop Now
+        </button>
       </div>
     </section>
   );
