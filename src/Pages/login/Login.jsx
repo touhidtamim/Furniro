@@ -72,7 +72,10 @@ const Login = () => {
         {/* Footer */}
         <p className="text-center text-sm text-gray-600 mt-6">
           Don’t have an account?{" "}
-          <a href="#" className="text-sky-600 hover:underline font-medium">
+          <a
+            href="register"
+            className="text-sky-600 hover:underline font-medium"
+          >
             Sign up
           </a>
         </p>
