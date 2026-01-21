@@ -15,7 +15,7 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // frontend only
+    console.log(formData);
   };
 
   return (
