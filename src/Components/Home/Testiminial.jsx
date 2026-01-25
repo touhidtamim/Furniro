@@ -58,11 +58,6 @@ const Testimonial = () => {
                 ))}
               </div>
 
-              {/* Review */}
-              <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                “{item.review}”
-              </p>
-
               {/* User Info */}
               <div className="flex items-center gap-4">
                 <img
