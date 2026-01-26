@@ -64,6 +64,17 @@ const Testimonial = () => {
               </p>
 
               {/* User Info */}
+              <div className="flex items-center gap-4">
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-12 h-12 rounded-full object-cover"
+                />
+                <div>
+                  <h4 className="font-semibold text-gray-800">{item.name}</h4>
+                  <p className="text-xs text-gray-500">{item.role}</p>
+                </div>
+              </div>
             </div>
           ))}
         </div>
