@@ -50,6 +50,13 @@ const Testimonial = () => {
               className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition duration-300"
             >
               {/* Rating */}
+              <div className="flex mb-4">
+                {[...Array(item.rating)].map((_, i) => (
+                  <span key={i} className="text-yellow-400 text-lg">
+                    ★
+                  </span>
+                ))}
+              </div>
 
               {/* Review */}
               <p className="text-gray-600 text-sm leading-relaxed mb-6">
