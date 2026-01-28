@@ -50,12 +50,6 @@ const Login = () => {
           </div>
 
           {/* Button */}
-          <button
-            type="submit"
-            className="w-full py-2.5 bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded-lg transition"
-          >
-            Login
-          </button>
         </form>
 
         {/* Footer */}
