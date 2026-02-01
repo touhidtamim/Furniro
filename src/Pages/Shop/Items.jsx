@@ -56,6 +56,10 @@ const Items = () => {
                   {item.name}
                 </h2>
                 <p className="text-gray-600 mt-1">৳ {item.price}</p>
+
+                <button className="mt-4 w-full bg-gray-900 text-white py-2 rounded-lg hover:bg-gray-700 transition">
+                  Add to Cart
+                </button>
               </div>
             </div>
           ))}
