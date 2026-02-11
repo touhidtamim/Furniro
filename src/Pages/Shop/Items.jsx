@@ -1,32 +1,5 @@
 import React from "react";
 
-const products = [
-  {
-    id: 1,
-    name: "Modern Wooden Chair",
-    price: 4200,
-    img: "https://images.unsplash.com/photo-1582582494700-85d9cdd71e9d",
-  },
-  {
-    id: 2,
-    name: "Sofa Comfort Set",
-    price: 18500,
-    img: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
-  },
-  {
-    id: 3,
-    name: "Elegant Study Table",
-    price: 6900,
-    img: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc",
-  },
-  {
-    id: 4,
-    name: "Minimalist Bed Frame",
-    price: 22000,
-    img: "https://images.unsplash.com/photo-1615870216519-2f9fa7f4ac4a",
-  },
-];
-
 const Items = () => {
   return (
     <>
