@@ -13,6 +13,9 @@ const RootLayout = () => {
       {/* Added a custom scroll to top component */}
       <ScrollToTop />
 
+      {/* Outlet */}
+      <Outlet />
+
       {/* Footer */}
       <Footer />
     </>
