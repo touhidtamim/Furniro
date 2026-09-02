@@ -4,9 +4,6 @@ import SecondaryHero from "../../Components/Shared/seconderyHero";
 const About = () => {
   return (
     <>
-      {/* Secondery Hero Section */}
-      <SecondaryHero />
-
       {/* Main Content page */}
       <div className="max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold text-gray-800 mb-6 text-center">
