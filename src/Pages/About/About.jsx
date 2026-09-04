@@ -10,7 +10,7 @@ const About = () => {
       {/* Main Content page */}
       <div className="max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold text-gray-800 mb-6 text-center">
-          About Furniro
+          About Fur
         </h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
