@@ -24,7 +24,7 @@ const About = () => {
               <span className="font-medium text-gray-800">
                 “premium quality furniture within budget.”
               </span>
-               your home is a reflection of your personality, and our
+              We believe your home is a reflection of your personality, and our
               goal is to help you decorate it with style, comfort, and elegance.
             </p>
 
