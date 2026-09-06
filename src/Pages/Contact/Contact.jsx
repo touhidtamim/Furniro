@@ -6,6 +6,7 @@ const Contact = () => {
   return (
     <>
       {/* Secondary Hero */}
+      <SecondaryHero />
 
       {/* Main Content */}
       <section className="px-4 py-12 md:py-20 bg-gray-50">
