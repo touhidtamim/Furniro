@@ -14,7 +14,7 @@ const Login = () => {
           </p>
         </div>
 
-        {/* Form */}
+
         <form className="space-y-5">
           {/* Email */}
           <div>
